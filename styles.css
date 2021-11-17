@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #3b3939;
+}
+
+.container {
+  width: 1200px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-author {
+  margin-bottom: 100px;
+}
+
+.work {
+  margin-bottom: 100px;
+}
+
+.work-title-1,
+.work-title-2 {
+  margin-bottom: 5px;
+}
+
+.dates {
+  margin-bottom: 20px;
+  color: #949292;
+  font-weight: bold;
+}
+.work-list {
+  list-style: none;
+}
+
+.work-type {
+  color: #ff7f50;
+}
+
+.work-li {
+  margin-bottom: 30px;
+}
+aside {
+  background-color: rgb(235, 194, 141);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 20px 20px 20xp 10px rgb(190, 189, 189);
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.main-title {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.position-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.about-me-title {
+  margin-bottom: 15px;
+}
+.authors-photo {
+  margin-bottom: 20px;
+}
+
+.tech-skills,
+.soft-skills,
+.contacts {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.tech-skills li,
+.soft-skills li,
+.contacts li {
+  margin-left: 20px;
+  padding: 6px;
+  list-style: square;
+}
+
+.contacts-info a {
+  text-decoration: none;
+  color: #3b3939;
+  background-color: rgb(238, 224, 203);
+  border: 1px solid black;
+  padding: 3px;
+}
+.more-about-me {
+  diplay: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  padding: 10px;
+}
+.hobbies {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px;
+}
